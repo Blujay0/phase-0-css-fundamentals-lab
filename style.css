@@ -1,5 +1,43 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+h1 {
+  text-align: center;
+}
+
+#featured-property figure{
+  text-align: center;
+  font-size: 13px;
+  color: purple;
+}
+
+#featured-property p{
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: yellow;
+}
+
+#details {
+  color: lightgreen;
+  background-color: red;
+  text-align: center; /*this is to center the divs*/
+}
+
+#details div {
+  display: inline-block;
+  text-align: center; /*this is to center each div text*/
+  margin: 0 7.5%;
+}
+
+#details a {
+  color: lightgray;
 }
